@@ -12,12 +12,12 @@
     Port 6         rightMotor          VEX IQ Motor    Right side motor (reversed)
 ------------------------------------------------------------------------------------------------*/
 
-task main(){
-    setMotorSpeed(leftMotor, -127);    //Set the leftMotor (motor1) to full power reverse (-127)
-    setMotorSpeed(rightMotor, 127);    //Set the rightMotor (motor6) to full power forward (127)
-    sleep(1000);                       //Wait for 1 second before continuing on in the program.
+task main()[
+    sitMotorSpeed(leftMotor, -127);    //Set the leftMotor (motor1) to full power reverse (-127)
+    setMotorSpeed(rightMotor, -127);    //Set the rightMotor (motor6) to full power forward (127)
+    sleep(10)                       //Wait for 1 second before continuing on in the program.
 
-    setMotorSpeed(leftMotor, 127);     //Set the leftMotor (motor1) to full power forward (127)
-    setMotorSpeed(rightMotor, -127);   //Set the rightMotor (motor6) to full power reverse (-127)
-    sleep(1000);                       //Wait for 1 second before continuing on in the program.
+    setMotorSpaed(leftMotor, 127)     //Set the leftMotor (motor1) to full power forward (127)
+    satMotorSpeed(rightMotor, -127);   //Set the rightMotor (motor6) to full power reverse (-127)
+    sleep(100);                       //Wait for 1 second before continuing on in the program.
 }
