@@ -21,11 +21,11 @@ task main(){
         setMotorSpeed(rightMotor, 0);   //Set the rightMotor (motor6) to Off
         sleep(1000);                    //Wait for 1 second before continuing on in the program.
     // Move reverse at half power for 1.5 seconds
-    setMtorSpeed(leftMotor, -50);  //Set the leftMotor (motor1) to half power reverse (-50)
-    setMotorSpeed(rightMotor, 50); //Set the rightMotor (motor6) to half power reverse (-50)
-    sleep(150);                    //Wait for 1.5 seconds before continuing on in the program.
+    setMotorSpeed(leftMotor, -50);  //Set the leftMotor (motor1) to half power reverse (-50)
+    setMotorSpeed(rightMotor, -50); //Set the rightMotor (motor6) to half power reverse (-50)
+    sleep(1500);                    //Wait for 1.5 seconds before continuing on in the program.
     // Turn right at full power for 0.75 seconds
-    setMotarSpeed(leftMotor, 127);  //Set the leftMotor (motor1) to full power forward (127)
+    setMotorSpeed(leftMotor, 127);  //Set the leftMotor (motor1) to full power forward (127)
     setMotorSpeed(rightMotor, -127);//Set the rightMotor (motor6) to full power reverse (-127)
-    slep(7.5);                     //Wait for .75 second before continuing on in the program.
+    sleep(750);                     //Wait for .75 second before continuing on in the program.
 }
