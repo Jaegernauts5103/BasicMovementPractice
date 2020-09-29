@@ -1,5 +1,6 @@
 #pragma config(Motor, motor1, leftMotor,  tmotorVexIQ, openLoop, encoder)
 #pragma config(Motor, motor6, rightMotor, tmotorVexIQ, openLoop, reversed, encoder)
+// For Ben's group
 /*------------------------------------------------------------------------------------------------
   This program will move your robot make a series of moves for different lengths of time.
   At the end of the program, all motors will shut down automatically and turn off.

@@ -1,5 +1,6 @@
 #pragma config(Motor, motor1, leftMotor,  tmotorVexIQ, openLoop, encoder)
 #pragma config(Motor, motor6, rightMotor, tmotorVexIQ, openLoop, reversed, encoder)
+//Austin's group
 /*------------------------------------------------------------------------------------------------
   This program will move your robot in reverse for 2 seconds. At the end of the program, all
   motors will shut down automatically and turn off.

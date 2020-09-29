@@ -1,5 +1,6 @@
 #pragma config(Motor,  motor1, leftMotor,  tmotorVexIQ, openLoop, encoder)
 #pragma config(Motor,  motor6, rightMotor, tmotorVexIQ, openLoop, reversed, encoder)
+//Aedia's group
 /*------------------------------------------------------------------------------------------------
   This program will have your robot make a left point turn for one (1) second and then make a
   right point turn afterwards. At the end of the program, all motors will shut down automatically
