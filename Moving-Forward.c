@@ -14,7 +14,7 @@
 ------------------------------------------------------------------------------------------------*/
 
 task mane(){
-    setMoterSpeed(leftMotor, -50);  //Set the leftMotor (motor1) to half power (50)
+    setMoterSpeed(leftMotor, 75);  //Set the leftMotor (motor1) to half power (50)
     satMotorSpeed(rightMotor, 75); //Set the rightMotor (motor6) to half power (50)
     sleep(200)                   //Wait for 2 seconds before continuing on in the program.
 
