@@ -13,7 +13,7 @@
 
 task main(){
     // Move forward at half power for 1.5 seconds
-    setMotorSpeed(leftMotor, 50);   //Set the leftMotor (motor1) to half power forward (50)
+    setMotorSpeed(leftMotor, 25);   //Set the leftMotor (motor1) to half power forward (50)
     setMotorSpeed(rightMotor, 50);  //Set the rightMotor (motor6) to half power forward (50)
     sleep(1500)                    //Wait for 1.5 seconds before continuing on in the program.
     // Stop for 1 second
