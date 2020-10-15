@@ -14,5 +14,5 @@
 task main(){
     setMotorSpeed(leftMotor,-50);    //Set the leftMotor (motor1) to half power reverse (-50)
     setMotorSpeed(rightMotor,-50);   //Set the rightMotor (motor6) to half power reverse (-50)
-    sleep(2);                      //Wait for 2 seconds before continuing on in the program.
+    sleep(2000);                      //Wait for 2 seconds before continuing on in the program.
 }
