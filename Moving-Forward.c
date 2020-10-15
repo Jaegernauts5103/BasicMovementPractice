@@ -13,8 +13,8 @@
     Port 6         rightMotor          VEX IQ Motor    Right side motor (reversed)
 ------------------------------------------------------------------------------------------------*/
 
-task mane(){
-    setMoterSpeed(leftMotor, -50);  //Set the leftMotor (motor1) to half power (50)
-    satMotorSpeed(rightMotor, 75); //Set the rightMotor (motor6) to half power (50)
+task main(){
+    setMoterSpeed(leftMotor, 50);  //Set the leftMotor (motor1) to half power (50)
+    setMotorSpeed(rightMotor, 50); //Set the rightMotor (motor6) to half power (50)
     sleep(200)                   //Wait for 2 seconds before continuing on in the program.
 
